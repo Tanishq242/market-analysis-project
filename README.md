@@ -264,10 +264,8 @@ screenshot/first.png
 
 ## Upload File
 
-> Replace with screenshot
-
 ```
-screenshot/second.png
+![Home Page](screenshot/first.png)
 ```
 
 ---
