@@ -254,9 +254,8 @@ http://localhost:5173
 
 ## Home Page
 
-```
 <img src='screenshot/first.png'>
-```
+
 
 ---
 
