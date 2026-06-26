@@ -261,19 +261,13 @@ http://localhost:5173
 
 ## Upload File
 
-```
-![Home Page](screenshot/first.png)
-```
+<img src='screenshot/second.png'>
 
 ---
 
 ## Tabel Panel
 
-> Replace with screenshot
-
-```
-screenshot/third.png
-```
+<img src='screenshot/third.png'>
 
 ---
 
