@@ -257,7 +257,7 @@ http://localhost:5173
 > Replace with screenshot
 
 ```
-docs/screenshots/home.png
+screenshot/first.png
 ```
 
 ---
@@ -267,27 +267,17 @@ docs/screenshots/home.png
 > Replace with screenshot
 
 ```
-docs/screenshots/upload.png
+screenshot/second.png
 ```
 
 ---
 
-## Metadata Panel
+## Tabel Panel
 
 > Replace with screenshot
 
 ```
-docs/screenshots/metadata.png
-```
-
----
-
-## Filtered Results
-
-> Replace with screenshot
-
-```
-docs/screenshots/filter.png
+screenshot/third.png
 ```
 
 ---
