@@ -1,0 +1,11 @@
+#right-panel {
+    width: 85%;
+    color: white;
+    background-color: #081223;
+    font-family: calibri;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    border: 1px solid #4c4f55;
+}

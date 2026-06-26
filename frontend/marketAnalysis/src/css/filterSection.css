@@ -1,0 +1,48 @@
+#filter-container {
+    border: 1px solid #4c4f55;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #0f1c2d
+}
+
+#filter-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.select-container {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    gap: 16px;
+    width: 100%;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.reset-button {
+    padding: 10px 25px;
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    border: 2px solid #313439;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.apply-button {
+    padding: 10px 25px;
+    background-color: #1860f4;
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+}

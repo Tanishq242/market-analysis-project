@@ -1,0 +1,151 @@
+#upload-header {
+  margin-bottom: 25px;
+}
+
+#upload-file-container {
+  border: 2px dashed #4c4f55;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0f1c2d
+}
+
+#upload-header>h3 {
+  font-size: 2em;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#upload-header>p {
+  font-size: 1em;
+  color: rgb(207, 204, 204);
+  margin-bottom: 0px;
+}
+
+#upload-file-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#upload-file-left>h3 {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#upload-file-left>p {
+  font-size: 1em;
+  color: #ccc9c9;
+  margin-bottom: 0px;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 10px;
+}
+
+#upload-file-body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #4c4f55;
+}
+
+#upload-file-body>div:first-child {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.buttonDownload {
+  display: inline-block;
+  position: relative;
+  padding: 10px 25px;
+  background-color: #1860f4;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+  text-indent: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.buttonDownload:hover {
+  background-color: #1a60a2;
+  color: white;
+}
+
+.buttonDownload:before,
+.buttonDownload:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 52%;
+}
+
+.buttonDownload:before {
+  width: 10px;
+  height: 2px;
+  border-style: solid;
+  border-width: 0 2px 2px;
+}
+
+.buttonDownload:after {
+  width: 0;
+  height: 0;
+  margin-left: 3px;
+  margin-top: -7px;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  border-color: transparent;
+  border-top-color: inherit;
+  animation: downloadArrow 1s linear infinite;
+  animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+  border-color: #bdd3ef;
+}
+
+.buttonDownload:hover:after {
+  border-top-color: #eff1f7;
+  animation-play-state: running;
+}
+
+@keyframes downloadArrow {
+  0% {
+    margin-top: -7px;
+    opacity: 1;
+  }
+
+  0.001% {
+    margin-top: -15px;
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 0;
+    opacity: 0.4;
+  }
+}
+
+.buttonChoose {
+  padding: 10px 25px;
+  background-color: transparent;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  border: 2px solid #313439;
+  border-radius: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,21 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node
+frontend/marketAnalysis/node_modules/
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,95 @@
+#response-section-container {
+    display: flex;
+    gap: 20px;
+}
+
+#dataset-overview {
+    width: 40%;
+    border: 1px solid #4c4f55;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #0f1c2d
+}
+
+#dataset-overview>div:first-child {
+    font-size: 18px;
+}
+
+#response-json {
+    width: 60%;
+    border: 1px solid #4c4f55;
+    border-radius: 10px;
+    background-color: #0f1c2d
+}
+
+#dataset-overview-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#d1,
+#d2,
+#d3,
+#d4 {
+    border: 1px solid #4c4f55;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#total-rows {
+    font-size: 28px;
+    color: #3c88f0;
+}
+
+#total-columns {
+    font-size: 28px;
+    color: #d251d2;
+}
+
+#memory-usage {
+    font-size: 28px;
+    color: #2cd22c;
+}
+
+#upload-time {
+    font-size: 28px;
+    color: yellow;
+}
+
+#response-json {
+    padding: 15px;
+}
+
+#response-json-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#response-json-header>div:first-child {
+    font-size: 18px;
+}
+
+.copy-button {
+    background-color: transparent;
+    border: 1px solid #4c4f55;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.data-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
