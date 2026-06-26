@@ -254,10 +254,8 @@ http://localhost:5173
 
 ## Home Page
 
-> Replace with screenshot
-
 ```
-screenshot/first.png
+<img src='screenshot/first.png'>
 ```
 
 ---
